@@ -6,7 +6,6 @@
 require_relative('card.rb')
 class CardGame
 
-
   def self.check_for_ace(card)
     if card.value == 1
       return true
@@ -22,7 +21,6 @@ class CardGame
       return card2
     end
   end
-
 
   def self.cards_total(cards)
     total = 0
